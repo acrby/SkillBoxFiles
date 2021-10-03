@@ -22,7 +22,7 @@ namespace SkillBoxFiles
             #region Чтение
             using (StreamReader data = new StreamReader("Test.csv", Encoding.Unicode))
             {
-                while(!data.EndOfStream)
+                while(data.EndOfStream)
                 {
                     Console.WriteLine(data.ReadLine());
                 }
