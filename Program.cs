@@ -38,7 +38,7 @@ namespace SkillBoxFiles
         /// Самописная функция чтения файла
         /// </summary>
         /// <param name="filename">Имя файла с расширением, которое будет прочитано в директории Решения</param>
-        static void ReadFile(string filename)
+        static void ReadFile(string filename) //com
         {
             #region Чтение
             using (StreamReader data = new StreamReader(filename, Encoding.Unicode))
